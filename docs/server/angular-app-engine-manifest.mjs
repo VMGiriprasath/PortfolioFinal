@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/Portfolio1/',
+  basePath: 'Portfolio1',
   entryPoints: {
     '': () => import('./main.server.mjs')
   },
