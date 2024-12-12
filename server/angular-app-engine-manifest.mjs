@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'https://VMGiriprasath.github.io/Portfolio1/',
+  basePath: '/portfolio1/',
   entryPoints: {
     '': () => import('./main.server.mjs')
   },
