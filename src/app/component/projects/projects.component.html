@@ -1,16 +1,13 @@
-<!-- Add Bootstrap Icons CDN link in the <head> section -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
-    <!-- Projects Section -->
     <section class="projects-section pt-5" id="projects">
       <div class="container">
         <h2 class="section-heading text-center p-5 ">Projects</h2>
         <div class="row g-4">
-          <!-- Project Card 1 -->
           <div class="col-md-4">
             <div class="card project-card h-100 border-0 shadow-sm">
               <div class="d-flex justify-content-center align-items-center project-imgs" style="background-color: rgb(151, 78, 78);">
-                <i class="bi bi-book fa-4x text-white p-3"></i> <!-- Book icon -->
+                <i class="bi bi-book fa-4x text-white p-3"></i> 
               </div>
               <div class="card-body d-flex flex-column p-4">
                 <h5 class="card-title fw-bold">HICET E-Book Management System</h5>
@@ -20,11 +17,10 @@
             </div>
           </div>
         
-          <!-- Project Card 2 -->
           <div class="col-md-4">
             <div class="card project-card h-100 border-0 shadow-sm">
               <div class="d-flex justify-content-center align-items-center project-imgs" style="background-color: #4caf50;">
-                <i class="bi bi-laptop-code fa-4x text-white p-3"></i> <!-- Laptop code icon -->
+                <i class="bi bi-laptop-code fa-4x text-white p-3"></i> 
               </div>
               <div class="card-body d-flex flex-column p-4">
                 <h5 class="card-title fw-bold">Web Development Portfolio</h5>
@@ -34,11 +30,10 @@
             </div>
           </div>
         
-          <!-- Project Card 3 -->
           <div class="col-md-4">
             <div class="card project-card h-100 border-0 shadow-sm">
               <div class="d-flex justify-content-center align-items-center project-imgs" style="background-color: #2196f3;">
-                <i class="bi bi-phone fa-4x text-white p-3"></i> <!-- Mobile icon -->
+                <i class="bi bi-phone fa-4x text-white p-3"></i> 
               </div>
               <div class="card-body d-flex flex-column p-4">
                 <h5 class="card-title fw-bold">Mobile App Development</h5>
@@ -51,8 +46,7 @@
       </div>
     </section>
     
-    <!-- Modals for Project Details -->
-    <!-- Modal 1: HICET E-Book Management System -->
+  
     <div class="modal fade" id="projectModal1" tabindex="-1" aria-labelledby="projectModal1Label" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -61,7 +55,6 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <!-- Image Carousel -->
             <div id="carouselExample1" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -87,7 +80,6 @@
       </div>
     </div>
     
-    <!-- Modal 2: Web Development Portfolio -->
     <div class="modal fade" id="projectModal2" tabindex="-1" aria-labelledby="projectModal2Label" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -96,7 +88,6 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <!-- Image Carousel -->
             <div id="carouselExample2" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -122,7 +113,6 @@
       </div>
     </div>
     
-    <!-- Modal 3: Mobile App Development -->
     <div class="modal fade" id="projectModal3" tabindex="-1" aria-labelledby="projectModal3Label" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -131,7 +121,6 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <!-- Image Carousel -->
             <div id="carouselExample3" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -157,50 +146,5 @@
       </div>
     </div>
     
-    <!-- Styles -->
-    <style>
-      .btn-warning {
-        color: #fff;
-        background-color: #ff6f00;
-        border-color: #ff6f00;
-      }
-    
-      .btn-warning:hover {
-        background-color: #e65100;
-        border-color: #e65100;
-      }
-    
-      .project-card {
-        transition: transform 0.2s ease, box-shadow 0.3s ease;
-      }
-    
-      .project-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      }
-    
-      .project-imgs i {
-        font-size: 4rem;
-        color: #fff;
-      }
-    
-      .card-body {
-        padding: 1.5rem;
-      }
-    
-      .section-heading {
-        font-size: 2.5rem;
-        color: #333;
-      }
-    
-      @media (max-width: 768px) {
-        .projects-section {
-          padding-top: 3rem;
-        }
-    
-        .project-card .card-body {
-          padding: 1rem;
-        }
-      }
-    </style>
+  
     
